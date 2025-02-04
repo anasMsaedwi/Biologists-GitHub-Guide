@@ -72,34 +72,69 @@ As a biologist, you might wonder why GitHub is relevant to your work. Here are s
 
 
 
+1. **Create a New Repository**:
+   - Click the "+" icon in the top-right corner of GitHub and select "New repository."
+   - Choose a name, add a description, and decide whether it will be public or private.
+   - Initialize the repository with a README file (optional but recommended).
+
+2. **Clone a Repository**:
+   - On GitHub, navigate to the repository you want to clone.
+   - Click the "Code" button and copy the repository URL.
+   - Use the following command to clone it to your local machine:
+     ```bash
+     git clone https://github.com/username/repository-name.git
+     ```
+
+3. **Add and Commit Changes**:
+   - Make changes to your files.
+   - Stage the changes:
+     ```bash
+     git add filename
+     ```
+   - Commit the changes with a message:
+     ```bash
+     git commit -m "Your commit message"
+     ```
+
+4. **Push Changes to GitHub**:
+   - Upload your changes to GitHub:
+     ```bash
+     git push origin main
+     ```
+
+### Collaborating on GitHub
+
+1. **Fork a Repository**:
+   - Fork a repository to create your own copy.
+   - Make changes in your fork and submit a pull request to the original repository.
+
+2. **Create a Pull Request**:
+   - After making changes in a branch, go to the repository on GitHub.
+   - Click "Compare & pull request" to submit your changes for review.
+
+3. **Review and Merge Pull Requests**:
+   - Review changes made by collaborators.
+   - Add comments, request changes, or merge the pull request.
+
+4. **Use Issues**:
+   - Create issues to report bugs, request features, or discuss ideas.
+   - Assign issues to collaborators and track progress.
+
+### Using GitHub for Data and Code Management
+
+1. **Store and Share Data**:
+   - Use GitHub to store small datasets (up to 100MB per file).
+   - For larger datasets, consider using GitHub Large File Storage (LFS) or external data repositories like Zenodo or Figshare.
+
+2. **Document Your Work**:
+   - Use Markdown files (e.g., README.md) to document your project.
+   - Include information about the project, how to use the code, and how to reproduce results.
+
+3. **Automate Workflows**:
+   - Use GitHub Actions to automate tasks like testing, building, and deploying your code.
 
 
 
 
 
-Acknowledgments
-Give credit to anyone who helped with the project, including funding sources, collaborators, or open-source tools you used. For example:
 
-This project was supported by [Funding Agency].
-
-We thank [Collaborator Name] for their contributions.
-
-We used the following open-source tools: [Tool Name], [Tool Name].
-
-Resources and Further Reading
-GitHub Guides
-
-Pro Git Book
-
-Software Carpentry: Version Control with Git
-
-GitHub for Scientists
-
-Contact
-For questions or feedback, please contact:
-
-Your Name
-
-Email: your.email@example.com
-
-GitHub: your-username
